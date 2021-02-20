@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+}
+
+header {
+  z-index: 0;
+  position: relative;
+  height: 100%;
+  background: url('first-image.svg') center center;
+  background-size: cover;
+}
+
+#testo-header {
+  font-family: monospace ;
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 250px;
+}
+
+.sidebar {
+  z-index: 1;
+  display: flex;
+  margin: 0;
+  padding: 5px;
+  width: 98.1%;
+  height: 3%;
+  position: fixed;
+  background-color: #131b26;
+  justify-content: space-around;
+}
+
+.sidebar a {
+  font-family: monospace;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+article {
+  height: 100%;
+  background-color: #161e2c;
+  background-size: cover;
+}
+
+#About {
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+  left: 18px;
+}
+
+#About img {
+  width: 11%;
+  margin-right: 25px;
+  border: 3px solid #ef6475;
+  border-radius: 80px;
+}
+
+#citazione {
+  color: white;
+  font-family: Georgia, monospace;
+  font-size: 20px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 80px;
+}
+
+#Skill {
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 130px;
+  left: 8px;
+}
+
+#Skill img {
+  width: 15%;
+}
+
+#Contatti {
+  color: white;
+  font-family: monospace;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #131b26;
+}
+
+#Contatti a {
+  color: white;
+  text-decoration: underline;
+  display: flex;
+  padding-top: 13px;
+}

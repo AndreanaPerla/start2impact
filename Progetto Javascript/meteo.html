@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Previsioni Meteo</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="meteo_style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <div id='sfondo'></div>
+    <img src="meteo.svg" class="img-responsive" alt="">
+
+    <div id='form-ricerca'>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+            <div class="input-group">
+              <input id='testo' type="text" class="form-control" placeholder="Cerca...">
+              <span class="input-group-btn">
+                <button id='search' class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                <button id='geo' class="btn btn-default" type="button"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id='tabella'>
+      <div class="container">
+          <div class="row">
+            <div class="col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3">
+              <ul class="list-group">
+                <li id='c' class="list-group-item list-group-item-warning">Città: </li>
+                <li class="list-group-item text-center list-group-item-warning"><div id="icona"><img id="img_icona" src="icons-weather/unknown.png" alt=""></div></li>
+                <li id='t' class="list-group-item list-group-item-warning">Temperatura: </li>
+                <li id= 't_max' class="list-group-item list-group-item-warning">Temperatura max.: </li>
+                <li id= 't_min' class="list-group-item list-group-item-warning">Temperatura min.: </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="meteo_code.js"></script>
+  </body>
+</html>
