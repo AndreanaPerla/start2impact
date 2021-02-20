@@ -11,3 +11,5 @@ Nella cartella:
 -Progetto React ->
 
 -Progetto React Native ->
+
+-Progetto Wordpress ->
