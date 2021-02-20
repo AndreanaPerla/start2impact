@@ -1,4 +1,4 @@
-# Progetti completati per il conseguimento della qualifica di Front-end development in start2impact
+# Progetti completati per la qualifica di Front-end development in start2impact
 
 Nella cartella:
 
