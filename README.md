@@ -4,6 +4,8 @@ Nella cartella:
 
 -Progetto HTML&CSS -> Il mio primissimo approccio al web development: puro HTML e CSS. Pecca di ingenuità, naturalmente, ma vedere su schermo il risultato delle mie fatiche mi ha non poco galvanizzato!
 
+![](/img%20preview%20info/HTML%26CSS.PNG)
+
 -Progetto HTML&CSS 2.0 -> In vista del progetto finale Front-end, ho dato una rinfrescata al progetto HTML e CSS. Non è certo il lavoro del secolo ma credo sia ben visibile, dalle poche linee di codice, il miglioramento nelle competenze base.
 
 -Progetto Javascript -> Il mio primo vero linguaggio di programmazione di cui posso dire di comprendere qualcosa (accidenti a te C++!). Si tratta di una semplice applicazione per le previsioni meteo, corredata di funzione di geolocalizzazione. L'api utilizzata è quella di OpenWeatherMap. Il lavoro non è precisissimo e, a dirla tutta, il comparto grafico dimostra delle evidenti pecche ma ehi! Funziona! 
