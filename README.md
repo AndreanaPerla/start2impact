@@ -25,3 +25,7 @@ Nella cartella:
 -Progetto Wordpress -> "Tu quoque Wordpress?!" Da vecchia affezionata dei blog (I'm a 90's kid!) mi sono approcciata a Wordpress pensando di avere già buona parte delle conoscenze necessarie: ingenua! PHP si è rivelato più ostico del previsto ma una volta appreso il meccanismo (piuttosto ripetitivo in effetti) per la creazione di un tema ad hoc, il progetto si è dimostrato non solo fattibile ma anche piuttosto piacevole. Siamo ben lungi dalla perfezione, ma sono piuttosto soddisfatta del tema portato nel progetto. Si tratta di un tema che ben si adatta alle attività ristorative (bar, ristoranti,...) e è altamente personalizzabile per meglio adattarsi alle diverse esigenze. 
 
 ![](/img%20preview%20info/wordpress.PNG)
+
+-Progetto Finale Front End -> Sono infine giunta alla conclusione del percorso Front End. TheVeggiePath è una (fake) startup che mira a creare consapevolezza nelle scelte alimentari e nella possibilità, grazie ad esse, di contribuire a cambiare il mondo in positivo. Si tratta di un'app che comprende: Home page, pagina Recipe dedicata alla ricette in cui è possibile, per ognuna di esse, visualizzare info ed effettuare il salvataggio nella sezione apposita (grazie al localStorage), About page classica. Il framework prescelto è stato React, mentre l'API utilizzata è stata fornita da Spoonacular.
+
+![](/img%20preview%20info/progetto%20finale%20Front%20End.PNG)
