@@ -1,0 +1,10 @@
+.recipe_main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.recipe_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
