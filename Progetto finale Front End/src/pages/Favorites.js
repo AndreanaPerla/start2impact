@@ -1,12 +1,14 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../context/GlobalState";
-import FavoriteCard from "../components/FavoriteCard";
+import FavoriteCard from "../components/FavoriteCard/FavoriteCard";
+import Navbar from "../components/Navbar/Navbar";
 
 function Favorites() {
   const { favorites } = useContext(GlobalContext);
 
   return (
     <div>
+      <Navbar />
       {favorites.length > 0 ? (
         <div
           style={{
@@ -25,6 +27,7 @@ function Favorites() {
               time={favorite.time}
               people={favorite.people}
               instructions={favorite.instructions}
+              source={favorite.source}
             />
           ))}
         </div>

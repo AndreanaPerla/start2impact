@@ -1,14 +1,16 @@
 import React from "react";
-import Header from "../components/Header";
-import Fresh from "../components/Fresh";
-import Professionals from "../components/Professionals";
-import Cta from "../components/Cta";
-import Future from "../components/Future";
-import Footer from "../components/Footer";
+import Header from "../components/Header/Header";
+import Fresh from "../components/Fresh/Fresh";
+import Professionals from "../components/Professionals/Professionals";
+import Cta from "../components/Cta/Cta";
+import Future from "../components/Future/Future";
+import Footer from "../components/Footer/Footer";
+import Navbar from "../components/Navbar/Navbar";
 
 function Home() {
   return (
     <div className="home">
+      <Navbar />
       <Header />
       <Fresh />
       <Professionals />

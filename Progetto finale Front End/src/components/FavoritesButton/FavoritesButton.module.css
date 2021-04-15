@@ -1,0 +1,77 @@
+.favorites button {
+  background-color: #ff2a2a;
+  border: none;
+  border-radius: 0.7rem;
+  width: 15%;
+  height: 3.5vmax;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  cursor: pointer;
+}
+
+.btn_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_content p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.btn_content span {
+  margin-right: 3%;
+  margin-top: 2%;
+  color: white;
+}
+
+.favorites button:hover {
+  background-color: #fc1212;
+}
+
+.favorites_link {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1280px) {
+  .btn_content p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .favorites button {
+    height: 4.5vmax;
+    width: 25%;
+    margin-left: 1.65%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .favorites button {
+    height: 5vmax;
+    width: 30%;
+  }
+
+  .btn_content p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .favorites button {
+    margin-left: 2%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .favorites button {
+    margin-left: 0;
+    width: 35%;
+    height: 5.5vmax;
+  }
+}
