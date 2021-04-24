@@ -29,3 +29,7 @@ Nella cartella:
 -Progetto Finale Front End -> Sono infine giunta alla conclusione del percorso Front End. TheVeggiePath è una (fake) startup che mira a creare consapevolezza nelle scelte alimentari e nella possibilità, grazie ad esse, di contribuire a cambiare il mondo in positivo. Si tratta di un'app che comprende: Home page, pagina Recipe dedicata alla ricette in cui è possibile, per ognuna di esse, visualizzare info ed effettuare il salvataggio nella sezione apposita (grazie al localStorage), About page classica. Il framework prescelto è stato React, mentre l'API utilizzata è stata fornita da Spoonacular.
 
 ![](/img%20preview%20info/progetto%20finale%20Front%20End.PNG)
+
+-Progetto Finale React Native -> Presa dall'entusiasmo del progetto finale Front End, decido di buttarmi a capofitto anche nel progetto finale React Native. L'app Visit Cagliari, vuole porsi come ponte tra i (numerosi!) turisti in arrivo nel capoluogo sardo e l'ente del turismo, e in particolare a quella sua branca dedita a fornire informazioni ai nuovi arrivati. Nonostante il portale dedicato si sia negli ultimi anni svecchiato e, anzi, abbia fatto il suo dignitoso ingresso nel mondo dei social, ritengo che un'applicazione dedicata possa rivelarsi il modo più rapido ed efficace per interfacciarsi con i tanti curiosi che, soprattutto nei mesi, estivi affollano la città.
+
+
