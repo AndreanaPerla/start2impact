@@ -32,4 +32,4 @@ Nella cartella:
 
 -Progetto Finale React Native -> Presa dall'entusiasmo del progetto finale Front End, decido di buttarmi a capofitto anche nel progetto finale React Native. L'app Visit Cagliari, vuole porsi come ponte tra i (numerosi!) turisti in arrivo nel capoluogo sardo e l'ente del turismo, e in particolare a quella sua branca dedita a fornire informazioni ai nuovi arrivati. Nonostante il portale dedicato si sia negli ultimi anni svecchiato e, anzi, abbia fatto il suo dignitoso ingresso nel mondo dei social, ritengo che un'applicazione dedicata possa rivelarsi il modo più rapido ed efficace per interfacciarsi con i tanti curiosi che, soprattutto nei mesi, estivi affollano la città.
 
-
+![](/img%20preview%20info/progetto%20finale%20react%20native.PNG)
