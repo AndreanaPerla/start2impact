@@ -46,27 +46,27 @@ body {
   cursor: pointer;
 }
 
-#increment {
+.increment {
   font-size: 25px;
   color: rgb(19, 109, 34);
   background-color: rgba(23, 139, 43, 0.2);
 }
 
-#decrement {
+.decrement {
   font-size: 25px;
   color: rgb(214, 21, 21);
   background-color: rgba(233, 39, 39, 0.2);
 }
 
-#increment:hover {
+.increment:hover {
   background-color: rgba(23, 139, 43, 0.4);
 }
 
-#decrement:hover {
+.decrement:hover {
   background-color: rgba(233, 39, 39, 0.4);
 }
 
-#number {
+.number {
   font-size: 25px;
   font-weight: bold;
   margin: 0;
@@ -147,7 +147,7 @@ input:checked + .slider:before {
 
 #title.active,
 #btn.active,
-#number.active {
+.number.active {
   color: white;
 }
 
@@ -156,20 +156,20 @@ input:checked + .slider:before {
   box-shadow: 0px 5px 10px rgb(24, 25, 43);
 }
 
-#increment.active {
+.increment.active {
   background-color: rgba(19, 109, 34, 0.5);
   color: rgba(41, 236, 73, 0.5);
 }
 
-#decrement.active {
+.decrement.active {
   background-color: rgba(214, 21, 21, 0.5);
   color: rgba(241, 63, 63, 0.8);
 }
 
-#increment.active:hover {
+.increment.active:hover {
   background-color: rgba(41, 236, 73, 0.2);
 }
 
-#decrement.active:hover {
+.decrement.active:hover {
   background-color: rgba(241, 63, 63, 0.4);
 }

@@ -1,7 +1,23 @@
+/*create counter*/
+let add = document.createElement("button");
+let add_text = document.createTextNode("+");
+add.appendChild(add_text);
+document.getElementById("counter").appendChild(add);
+add.classList.add("increment");
+
+let num = document.createElement("p");
+let p_text = document.createTextNode("0");
+num.appendChild(p_text);
+document.getElementById("counter").appendChild(num);
+num.classList.add("number");
+
+let remove = document.createElement("button");
+let remove_text = document.createTextNode("-");
+remove.appendChild(remove_text);
+document.getElementById("counter").appendChild(remove);
+remove.classList.add("decrement");
+
 /*counter function*/
-let add = document.getElementById("increment");
-let remove = document.getElementById("decrement");
-let num = document.getElementById("number");
 let int = 0;
 
 add.addEventListener("click", function () {
