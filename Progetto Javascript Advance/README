@@ -3,4 +3,4 @@ Il compito prevede la creazione di un app che permette di accedere alle informaz
 Ho costruito l'applicazione in maniera tale da restituire, da una parte i dati sull'inquinamento della città scelta (o in cui si è geolocalizzati), dall'altra la mappa di interesse (creata grazie all'utilizzo di Leafletjs).
 Vista l'impossibilità, in taluni casi, di ricevere alcuni dati relativi all'inquinamento o alla città ricercata, ho scritto nel codice una serie di istruzioni if...else per evitare il persistere di dati erronei.
 
-Deploy qui -> https://javascript-basics-q5aei8jb5-andreanaperla.vercel.app/
+Deploy qui -> 
