@@ -1,0 +1,5 @@
+Progetto Javascript Basics -> Counter
+Il compito prevede la costruzione di un counter basilare +/-. Avendo scelto come base del mio progetto dei colori chiari, oltre alla funzione di incremento/decremento, ho aggiunto
+un semplice bottone per utilizzare la dark mode, utile in taluni casi.
+
+Deploy qui -> https://javascript-basics-q5aei8jb5-andreanaperla.vercel.app/
