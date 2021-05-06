@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+
+    <title>Air pollution</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="header">
+        <div class="title">
+          <h1>Air pollution</h1>
+          <p>Check the air pollution in your city/country</p>
+        </div>
+        <div class="form">
+          <form>
+            <input id="input" type="text" placeholder="Search for any city" />
+            <button id="btn" type="button">
+              <i class="material-icons">search</i>
+            </button>
+            <button id="geo" type="button">
+              <i class="material-icons">location_on</i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="search">
+        <div class="search_section city">
+          <h3>City</h3>
+          <p id="city">Milan</p>
+        </div>
+        <div class="vl"></div>
+        <div class="search_section pm">
+          <h3>Fine dust grade</h3>
+          <p id="pm">85</p>
+        </div>
+        <div class="vl"></div>
+        <div class="search_section aqi">
+          <h3>Air quality index</h3>
+          <p id="aqi">85</p>
+        </div>
+        <div class="vl"></div>
+        <div class="search_section health">
+          <h3>Health note</h3>
+          <p id="health">Air quality is acceptable</p>
+        </div>
+      </div>
+
+      <div id="mapid"></div>
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
