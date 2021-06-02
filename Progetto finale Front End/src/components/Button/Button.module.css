@@ -1,0 +1,38 @@
+.button button {
+  width: 220px;
+  height: 50px;
+  color: white;
+  background-color: #4fc756;
+  border: none;
+  border-radius: 2rem;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #6cc471;
+}
+
+@media only screen and (max-width: 800px) {
+  .button button {
+    width: 180px;
+    height: 45px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .button button {
+    width: 130px;
+    height: 35px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .button button {
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+  }
+}
